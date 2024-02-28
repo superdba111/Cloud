@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('UAT Env'){
       steps {
-        sh "echo devbranch"
+        sh "echo uatbranch"
       }
     }
   }
