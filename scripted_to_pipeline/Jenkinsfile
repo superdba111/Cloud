@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("superdba111/jenkinstest","./pushdockerimage/")
+       app = docker.build("superdba111/jenkinstest2","./pushdockerimage/")
     }
 
     stage('Push image') {
