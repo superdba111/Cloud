@@ -1,0 +1,10 @@
+pipeline {
+  agent any
+  stages {
+    stage('UAT Env'){
+      steps {
+        sh "echo devbranch"
+      }
+    }
+  }
+}
